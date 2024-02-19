@@ -46,7 +46,7 @@ thead{
     from { background: linear-gradient(to right,#dbfdff 0%,#f0e000  150%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;}
-    to { background: linear-gradient(to right, #f0e000 0%, #dbfdff 100%);
+    to { background: linear-gradient(to right, #f0e000 0%, #dbfdff 160%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;}}
     
