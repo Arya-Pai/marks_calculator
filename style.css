@@ -8,20 +8,16 @@ body{
 }
 
 #header{
-    font-size: xx-large;
-    position:relative;
     display: flex;
     flex-direction: column;
     align-items:center;
     justify-content: center;
-    animation: rightThenLeft 4s linear;
-    margin: 30px;
-    animation-duration: 5s;
-    z-index: 1;
+    animation-name: colors;
+    animation-duration: 1.5s;
+    
     animation-iteration-count: infinite;
 }
 table{
-    position:sticky;
     /* width: 700px; */
     display: flex;
     flex-direction: column;
@@ -46,20 +42,11 @@ thead{
     height: 20px;
     border-radius: 20px;
 }
-@keyframes rightThenLeft {
-    0%   {left: -20%;}
-    50%  {left: 20%;}
-    100% {left: -20%;}
-    from { background: linear-gradient(to right,#3f62cb 0%,#f0e000  100%);
+@keyframes colors {
+    from { background: linear-gradient(to right,#dbfdff 0%,#f0e000  150%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;}
-    to { background: linear-gradient(to right, #f0e000 0%, #3f62cb 100%);
+    to { background: linear-gradient(to right, #f0e000 0%, #dbfdff 160%);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;}
-        }     
-.button_messages{
-    position: absolute;
-}
-button{
-    position: absolute; 
-}
+        -webkit-text-fill-color: transparent;}}
+    
