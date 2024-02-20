@@ -13,7 +13,7 @@ body{
     align-items:center;
     justify-content: center;
     animation-name: colors;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
     width: 100%;
     font-size: 2vw;
     
@@ -28,47 +28,77 @@ table{
     border-spacing: 2vmax;
     
     
+    
 }
-thead{
-    border: 2px solid black;
-    border-radius: 20px;
-    background-color: aqua;
-    font-size: 2vw;
-}
+
 .name{
-    width: 14vmax;
+    width: 16vmax;
     height: 2vmax;
     border-radius: 20px;
     word-wrap: break-word;
-
+    font-size: 1vw;
 }
 .marks1{
-    width: 7vmax;
+    width: 8vmax;
     height: 2vmax;
     border-radius: 20px;
-
+    font-size: 1vw;
 }
 .marks2{
-    width: 7vmax;
+    width: 8vmax;
     height: 2vmax;
     border-radius: 20px;
+    font-size: 1vw;
 }
 .marks3{
-    width: 7vmax;
+    width: 8vmax;
     height: 2vmax;
     border-radius: 20px;
-    word-wrap:break-word;
+    font-size: 1vw;
     
 }
+thead{
+    border: 2px solid black;
+    border-radius: 6vw;
+    background-color: aqua;
+    font-size: 2vw;
+}
+.text_size{
+    font-size: 1.5vw;
+    font-weight: bold;
+}
 @keyframes colors {
-    from { background: linear-gradient(to right,#dbfdff 0%,#f0e000  150%);
+    from { background: linear-gradient(to right,#dbfdff 0%,#f0e000  50%,#dbfdff 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;}
-    to { background: linear-gradient(to right, #f0e000 0%, #dbfdff 160%);
+    to { background: linear-gradient(to right, #f0e000 0%, #dbfdff 50%,#f0e000 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;}}
-
-@media screen {
-    
-    
+.hide{
+    display: none;
+}
+.submit{
+    width: 4vmax;
+    height:1.5vmax;
+    font-size: 1vw;
+    border-radius: 1vw;
+}
+.button_messages{
+    display:flex ;
+    justify-content: center;
+    border-top: 1.5px solid wheat;
+    align-items: center;
+    flex-direction: column;
+}
+.Reset{
+    width: 4vmax;
+    height:1.5vmax;
+    font-size: 1vw;
+    border-radius: 1vw;
+}
+.percentage{
+    width: 8vmax;
+    height: 2vmax;
+    border-radius: 20px;
+    font-size: 1vw;
 }
