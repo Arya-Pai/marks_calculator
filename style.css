@@ -14,6 +14,8 @@ body{
     justify-content: center;
     animation-name: colors;
     animation-duration: 1.5s;
+    width: 100%;
+    font-size: 2vw;
     
     animation-iteration-count: infinite;
 }
@@ -23,7 +25,7 @@ table{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-spacing: 20px;
+    border-spacing: 2vmax;
     
     
 }
@@ -31,16 +33,32 @@ thead{
     border: 2px solid black;
     border-radius: 20px;
     background-color: aqua;
+    font-size: 2vw;
 }
 .name{
-    width: 200px;
-    height: 20px;
+    width: 14vmax;
+    height: 2vmax;
+    border-radius: 20px;
+    word-wrap: break-word;
+
+}
+.marks1{
+    width: 7vmax;
+    height: 2vmax;
+    border-radius: 20px;
+
+}
+.marks2{
+    width: 7vmax;
+    height: 2vmax;
     border-radius: 20px;
 }
-.marks{
-    width: 170px;
-    height: 20px;
+.marks3{
+    width: 7vmax;
+    height: 2vmax;
     border-radius: 20px;
+    word-wrap:break-word;
+    
 }
 @keyframes colors {
     from { background: linear-gradient(to right,#dbfdff 0%,#f0e000  150%);
@@ -49,4 +67,8 @@ thead{
     to { background: linear-gradient(to right, #f0e000 0%, #dbfdff 160%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;}}
+
+@media screen {
     
+    
+}
